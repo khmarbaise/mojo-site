@@ -1,0 +1,7 @@
+##
+## $Id: .htaccess 13687 2011-03-04 20:01:38Z afloom $
+##
+
+RedirectMatch permanent site http://mojo.codehaus.org
+RedirectMatch permanent site/(.*)$ http://mojo.codehaus.org/$1
+

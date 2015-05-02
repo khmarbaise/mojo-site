@@ -1,0 +1,6 @@
+##
+## $Id: .htaccess-disabled 4982 2007-08-16 16:32:53Z user57 $
+##
+
+ErrorDocument 404 /not-found.html
+

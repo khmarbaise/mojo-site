@@ -1,0 +1,7 @@
+##
+## $Id: .htaccess 7958 2008-10-23 22:45:02Z pgier $
+##
+
+RedirectMatch permanent jboss-sar-maven-plugin http://mojo.codehaus.org/jboss-packaging-maven-plugin
+RedirectMatch permanent jboss-sar-maven-plugin/(.*)$ http://mojo.codehaus.org/jboss-packaging-maven-plugin
+
